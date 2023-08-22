@@ -1,0 +1,73 @@
+.main{
+    background-image: url('../image/Sebrae-mulheres.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+
+.text-container{
+    position: absolute;
+    left:200px;
+    margin:100px;
+    width: 55vh;
+    background: #0cb1b1;
+    height: 400px;
+    
+}
+
+.text-container .text-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    
+    color:#fff;
+}
+.text-container .text-sub h1{
+    width: 200px;
+   text-align: left;
+}
+
+.text-container .text-sub .text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 15px; 
+}
+.text-container .text-sub .text .button {
+    margin-top: 15px; 
+}
+.text-container .text-sub .text .button button{
+     outline: none;
+     border: none;
+     background: hsl(0, 75%, 45%);
+    color: #FFF;
+    height: 40px;
+    width: 130px;
+    cursor:pointer;
+    border-radius: 5px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+
+}
+.text-container .text-sub .text .button button:hover{
+    opacity: 0.9;
+
+}
+
+@media (max-width: 400px) {
+    .main .text-container{
+        position: absolute;
+    margin-left: 55px;
+    }
+   
+  }
+@media (max-width: 500px) {
+    .main .text-container{
+        position: absolute;
+        left: 0px;
+    }
+   
+  }
+
