@@ -59,7 +59,7 @@
 @media (max-width: 350px) {
     .main .text-container{
         position: absolute;
-    margin-right: 65px;
+    margin-left: 65px;
     }
    
   }
