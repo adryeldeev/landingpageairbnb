@@ -56,6 +56,13 @@
 
 }
 
+@media (max-width: 350px) {
+    .main .text-container{
+        position: absolute;
+    margin-right: 65px;
+    }
+   
+  }
 @media (max-width: 400px) {
     .main .text-container{
         position: absolute;
