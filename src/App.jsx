@@ -1,7 +1,7 @@
 
 
 import Header from './pages/Header'
-import Meio from './pages/meio'
+import Meio from './pages/Meio'
 import '../src/styles/App.css'
 import Footer from './pages/Footer'
 
