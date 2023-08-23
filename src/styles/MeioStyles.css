@@ -52,17 +52,11 @@
 
 }
 .text-container .text-sub .text .button button:hover{
-    opacity: 0.9;
+    opacity: 1;
 
 }
 
-@media (max-width: 350px) {
-    .main .text-container{
-        position: absolute;
-    margin-left: 65px;
-    }
-   
-  }
+
 @media (max-width: 400px) {
     .main .text-container{
         position: absolute;
@@ -70,6 +64,13 @@
     }
    
   }
+@media(max-width:350px){
+    .main .text-container{
+        position: absolute;
+        margin-left:25px;
+    }
+}
+
 @media (max-width: 500px) {
     .main .text-container{
         position: absolute;
