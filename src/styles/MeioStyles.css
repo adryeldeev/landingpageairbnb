@@ -67,7 +67,13 @@
 @media(max-width:350px){
     .main .text-container{
         position: absolute;
-        margin-left:25px;
+        margin-left:20px;
+    }
+}
+@media(max-width:375px){
+    .main .text-container{
+        position: absolute;
+        margin-left:5px;
     }
 }
 
